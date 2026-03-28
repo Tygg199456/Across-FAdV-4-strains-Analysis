@@ -1,0 +1,55 @@
+name: fadv4-meta
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # R and R base
+  - r-base=4.2
+  - r-essentials
+
+  # Core R packages for bioinformatics
+  # CORRECTED: org.Gg.eg.db for Gallus gallus (NOT org.Gs.eg.db)
+  - r-biocmanager
+  - bioconductor-limma
+  - bioconductor-edgeR
+  - bioconductor-clusterProfiler
+  - bioconductor-org.Gg.eg.db
+  - bioconductor-annotate
+  - bioconductor-DOSE
+  - bioconductor-enrichplot
+  - bioconductor-ReactomePA
+  - bioconductor-pathview
+  - bioconductor-ComplexHeatmap
+
+  # Data manipulation and visualization
+  - r-tidyverse
+  - r-ggplot2
+  - r-ggpubr
+  - r-pheatmap
+  - r-reshape2
+  - r-dplyr
+  - r-tidyr
+  - r-readr
+  - r-data.table
+
+  # Network analysis
+  - r-igraph
+  - r-ggraph
+  - r-tidygraph
+
+  # Utilities
+  - r-corrplot
+  - r-VennDiagram
+  - r-ggrepel
+  - r-scales
+  - r-RColorBrewer
+  - r-viridis
+  - r-gridExtra
+  - r-patchwork
+
+  # System utilities
+  - curl
+  - wget
+  - git

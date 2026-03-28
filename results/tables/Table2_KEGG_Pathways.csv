@@ -1,0 +1,7 @@
+"Pathway_ID","Pathway_Name","Gene_Ratio","Gene_Count","P.Value","P.Adj","Core_Genes"
+"gga04080","Neuroactive ligand-receptor interaction","16/191",16,"1.40e-04","9.39e-03","NMU/KNG1/AGT/HRH3/NPY/HTR1B/MC5R/BDKRB1/LPAR1/F2RL1/BDKRB2/DRD1/NMB/PENK/F2/C5"
+"gga04060","Cytokine-cytokine receptor interaction","11/191",11,"1.65e-04","9.39e-03","BMP4/IL15/TNFSF15/IL7R/TNFRSF11B/IL20RA/GDF11/IL2RB/CXCL14/TNFRSF19/TNFSF10"
+"gga01230","Biosynthesis of amino acids","8/191",8,"8.09e-04","2.50e-02","PRPS2/OTC/ALDOB/PAH/IDH1/GLUL/RPIA/PSAT1"
+"gga00380","Tryptophan metabolism","6/191",6,"8.76e-04","2.50e-02","TDO2/CYP1B1/ALDH8A1/KMO/CAT/HAAO"
+"gga03320","PPAR signaling pathway","8/191",8,"1.37e-03","3.13e-02","ACSL5/PCK1/FABP2/RXRG/PPARA/ACSL4/ACOX1/CPT1A"
+"gga04920","Adipocytokine signaling pathway","8/191",8,"2.21e-03","4.20e-02","ACSL5/PCK1/NPY/RXRG/NFKBIE/PPARA/ACSL4/CPT1A"

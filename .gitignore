@@ -1,0 +1,65 @@
+# R specific
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Output and temporary files
+output/
+*.tmp
+*.log
+*.pdf
+*.png
+*.jpg
+*.jpeg
+!results/figures/*.pdf
+!results/figures/*.png
+!results/figures/*.jpg
+!results/figures/*.jpeg
+
+# Raw data (too large for Git)
+data/raw/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE specific
+.vscode/
+.idea/
+*.Rproj.user
+
+# Cytoscape exports (large files)
+*.cys
+*.xgmml
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Excel files (use CSV instead in Git)
+*.xlsx
+*.xls
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Keep processed data but exclude large intermediate files
+data/processed/*.rds
+data/processed/*.RData
+
+# Documentation temp files
+docs/~$*
